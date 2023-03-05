@@ -17,10 +17,10 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name='machine_learning_project',
-    version='0.0.1',
-    auther='Sunil Kahalekar',
-    auther_email='kahalekar.sunil@gmail.com',
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt')
+name='machine_learning_project',
+version='0.0.1',
+author='Sunil Kahalekar',
+auther_email='kahalekar.sunil@gmail.com',
+packages=find_packages(),
+install_requires=get_requirements('requirements.txt')
 )
